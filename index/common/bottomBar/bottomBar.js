@@ -35,7 +35,9 @@
 
 
         // 将当前的页面对应的key值的a元素设置active的class
-        $('a\.'+page).addClass('active');
+        if(page){
+            $('a\.'+page).addClass('active');
+        }
     }
 
     init();

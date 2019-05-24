@@ -47,9 +47,9 @@
 	*/
 	function getBrand(data){
 		if(data.brand_type){
-			return '<div class="brand nrand-pin">品牌</div>';
+			return '<div class="brand brand-pin">品牌</div>';
 		}else{
-			return '<div class="brand nrand-xin">新到</div>';
+			return '<div class="brand brand-xin">新到</div>';
 		}
 	}
 

@@ -25,7 +25,8 @@
                             .replace('$text',item.text)
         });
 
-        $('.bottom-bar').append(str);
+
+        $('.bottom-bar').append($(str));
 
 
         // 找到当前页面的url来确定key值
@@ -34,7 +35,7 @@
 
 
         // 将当前的页面对应的key值的a元素设置active的class
-        $('a.'+page).addClass('active');
+        $('a\.'+page).addClass('active');
     }
 
     init();

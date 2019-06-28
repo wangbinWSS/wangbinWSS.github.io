@@ -1,0 +1,208 @@
+/* 头部动画 */
+.header__wrap_animate_init{
+	opacity: 0;
+	transform: translate(0,-100%);
+	
+}
+.header__wrap_animate_done{
+	opacity: 1;
+	transform: translate(0,0);
+	transition: all 1s;
+}
+
+/* 第一屏 */
+.screen-1__heading_animate_init{
+	opacity: 0;
+	transform: translate(0,100%);
+}
+.screen-1__heading_animate_done{
+	opacity: 1;
+	transform: translate(0,0);
+	transition: all 1s;
+}
+.screen-1__heading_item_animate_init{
+	opacity: 0;
+	transform: translate(0,50%);
+}
+.screen-1__heading_item_animate_done{
+	opacity: 1;
+	transform: translate(0,0);
+	transition: all 3s;
+}
+/* 第二屏 */
+.screen-2__heading_animate_init{
+	opacity: 0;
+	transform: translate(0,100%);
+}
+.screen-2__heading_animate_done{
+	opacity: 1;
+	transform: translate(0,0);
+	transition: all .5s;
+}
+.screen-2__heading_item_animate_init{
+	opacity: 0;
+	transform: translate(0,50%);
+}
+.screen-2__heading_item_animate_done{
+	opacity: 1;
+	transform: translate(0,0);
+	transition: all 2s;
+}
+.screen-2__img_3_animate_init{
+	opacity: 0;
+}
+.screen-2__img_3_animate_done{
+	opacity: 1;
+	transition: all 1s;
+}
+.screen-2__img_2_animate_init{
+	opacity: 0;
+}
+.screen-2__img_2_animate_done{
+	opacity: 0;
+	animation: rocket 1.5s forwards 2s;
+}
+@keyframes rocket{
+	0%{
+		opacity: 0;
+		transform: translate(0,100%);
+	}
+	60%{
+		opacity: 1;
+		transform: translate(0,-30%);
+	}
+	85%{
+		opacity: 1;
+		transform: translate(0,10%);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0,0);
+	}
+}
+/* 第三屏 */
+.screen-3__img_1_animate_init{
+	transform: scale(.1);
+}
+.screen-3__img_1_animate_done{
+	transform: scale(1000%);
+}
+.screen-3__wrap_heading_animate_init{
+	opacity: 0;
+}
+.screen-3__wrap_heading_animate_done{
+	opacity: 1;
+	transition: all 1s;
+}
+.screen-3__wrap_heading_item_animate_init{
+	opacity: 0;
+	transform: translate(0,100%);
+}
+.screen-3__wrap_heading_item_animate_done{
+	opacity: 1;
+	transform: translate(0,0);
+	transition: all 2s 1s;
+}
+.screen-3__wrap_course-1_animate_init,
+.screen-3__wrap_course-2_animate_init,
+.screen-3__wrap_course-3_animate_init,
+.screen-3__wrap_course-4_animate_init,
+.screen-3__wrap_course-5_animate_init{
+	opacity: 0;
+}
+.screen-3__wrap_course-1_animate_done,
+.screen-3__wrap_course-2_animate_done,
+.screen-3__wrap_course-3_animate_done,
+.screen-3__wrap_course-4_animate_done,
+.screen-3__wrap_course-5_animate_done{
+	opacity: 0;
+	animation: course 1s forwards 2.5s;
+}
+@keyframes course{
+	0%{
+		opacity: 0;
+		transform: translate(0,100%);
+	}
+	50%{
+		opacity: 1;
+		transform: translate(0,0);
+	}
+	60%{
+		opacity: 1;
+		transform: translate(0,0) scale(1.1);
+	}
+	80%{
+		opacity: 1;
+		transform: translate(0,0) scale(0.9);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0,0) scale(1);
+	}
+}
+.screen-4__heading_animate_init,
+.screen-4__wrap_img-1_animate_init,
+.screen-4__wrap_img-2_animate_init,
+.screen-4__wrap_img-3_animate_init,
+.screen-4__wrap_img-4_animate_init{
+	opacity: 0;
+	transform: scale(.8);
+}
+.screen-4__heading_animate_done,
+.screen-4__wrap_img-1_animate_done,
+.screen-4__wrap_img-2_animate_done,
+.screen-4__wrap_img-3_animate_done,
+.screen-4__wrap_img-4_animate_done{
+	opacity: 1;
+	transform: scale(1);
+	transition: all 2s;
+}
+.screen-4__heading_item_animate_init{
+	opacity: 0;
+	transform: translate(0,60%);
+}
+.screen-4__heading_item_animate_done{
+	opacity: 1;
+	transform: translate(0,0);
+	transition: all 1.5s 1s;
+}
+.screen-5__img_animate_init{
+	transform: scale(.2);
+}
+.screen-5__img_animate_done{
+	transform: scale(1.2);
+}
+.screen-5__heading_animate_init,
+.screen-5__heading_item_animate_init{
+	opacity: 0;
+	transform: translate(0,50%);
+}
+.screen-5__heading_animate_done{
+	opacity: 1;
+	transform: translate(0,0);
+	transition: all 2s;
+}
+.screen-5__heading_item_animate_done{
+	opacity: 1;
+	transform: translate(0,0);
+	transition: all 2s 1s;
+}
+/* 导航条动了的样式 */
+.header__status_back{
+	background: rgba(255,255,255,.5);
+	position: fixed;
+	z-index: 1
+}
+.header__status_back .header__logo{
+	color:black;
+}
+.header__status_back .header__nav-item{
+	color:black;
+}
+
+/* 侧边导航显示 */
+.outline_status_in{
+	opacity: 1;
+	transform: translate(0,0);
+	transition: all 1s;
+}

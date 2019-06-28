@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>高铁验证</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- 头部 -->
+	<header class="top">
+		<!-- 头部左边导航 -->
+		<div class="top__header">
+			<div class="top__header_logo">
+				<img src="img/logo.png">
+				<h2>慕课高铁客户服务中心</h2>&nbsp;<a>|</a>&nbsp;<span>客户服务</span>
+			</div>
+			<!-- 头部右边导航 -->
+			<div class='top__header_nav'>
+				<ul>
+					<li><b>意见反馈</b> <a href="javascript:;">imooc@com</a></li>
+					<li>您好，请&nbsp;<a href="javascript:;">登录</a>&nbsp;&nbsp;|&nbsp;&nbsp;<b>注册</b></li>
+					<li class='top__header_nav-item'><b>我的IMOOC</b></li>
+					<li><b><img src="img/phone.png">&nbsp;&nbsp;&nbsp;&nbsp;手机版</b></li>
+				</ul>
+				<!-- 下拉菜单 -->
+				<div class="top__header_nav_outline">
+							<a href="javascript:;" class="outline__item">未完成订单<br/>已完成订单(改/退)</a><br/>
+							<a href="javascript:;" class="outline__item">我的保险</a><br/>
+							<a href="javascript:;" class="outline__item">查看个人信息<br/>账户安全</a><br/>
+							<a href="javascript:;" class="outline__item">常用联系人</a><br/>
+							<a href="javascript:;" class="outline__item">重点旅客预约<br/>遗失物品寻找</a><br/>
+							<a href="javascript:;" class="outline__item">服务查询</a><br/>
+							<a href="javascript:;" class="outline__item">投诉<br/>建议</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- 内容 -->
+	<div class="main">
+		<div class="main__title">您现在的位置：&nbsp;<b>客运首页 > 注册</b></div>
+		<div class="main__subject">
+			<div id="main__subject_title">账户信息</div>
+			<!-- 用户名 -->
+	        <div class="main__subject_item">
+	            <span class="important">*</span>
+	            <label class="font">用&nbsp;&nbsp;户&nbsp;&nbsp;名:</label>
+	            <input type="text" id="userName" placeholder=" 用户名设置成功后不可修改">
+	        	<p class="hint">6-20位字母、数字或符号</p>
+	        </div>
+	        <!-- 登录密码 -->
+			<div class="main__subject_item">
+	            <span class="important">*</span>
+	            <label class="font_4">登录密码 :</label>
+	            <input type="password" id="pwd" placeholder=" 6-20位字母、数字或符号">
+	        	<div id="pwd_hint"></div>
+	        	<div id="pwd_hint_2"></div>
+	        	<div id="pwd_hint_3"></div><br/>
+	        	<p class="hint"></p>
+	        </div>
+	        <!-- 确认密码 -->
+			<div class="main__subject_item">
+	            <span class="important">*</span>
+	            <label class="font_4">确认密码 :</label>
+	            <input type="password" id="affirm_pwd" placeholder=" 再次输入您的密码">
+	        	<p class="hint"></p>
+	        </div>
+	        <!-- 姓名 -->
+			<div class="main__subject_item">
+	            <span class="important">*</span>
+	            <label class="font_2">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名 :</label>
+	            <input type="text" id="name" placeholder=" 请输入姓名">
+	        	<a id="hint_name">姓名填写规则</a>
+	        	<!-- 姓名填写规则 -->
+				<div id="name_tag">
+					<p>
+						1.确认姓名中生僻字无法输入时，可用生僻字拼音或同音字替代。<br/>
+						2.输入姓名保存后，遇有系统无法正确显示的汉字，可用该汉子的拼音或同音字重新修改后保存。<br/>
+						3.姓名中有繁体字无法输入时，可用简体替代。<br/>
+						4.姓名较长，汉字与英文字符合计超过30个（1个汉子算2个字符）的，需按姓名中第一个汉字或英文字符开始按顺序连续输入30个字符（空格字符不输入），其中英文字符输入时不去别大小写
+					</p>
+				</div>
+	        </div>
+	        <!-- 证件类型 -->
+			<div class="main__subject_item">
+	            <span class="important">*</span>
+	            <label class="font_4">证件类型 :&nbsp;&nbsp;&nbsp;</label>
+	            <select>
+	            	<option>二代身份证</option>
+	            	<option>港澳通行证</option>
+	            	<option>台湾通行证</option>
+	            	<option>护照</option>
+	            </select>
+	        </div>
+	        <!-- 证件号码 -->
+			<div class="main__subject_item">
+	            <span class="important">*</span>
+	            <label class="font_4">证件号码 :</label>
+	            <input type="text" id="documentNum" placeholder=" 请输入您的证件号码">
+	        	<p class="hint"></p>
+	        </div>
+	        <!-- 邮箱 -->
+			<div class="main__subject_item">
+	            <span class="important">&nbsp;</span>
+	            <label class="font_2">邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱 :</label>
+	            <input type="text" id="email" placeholder=" 请正确填写邮箱地址">
+	       		<p class="hint"></p>
+	        </div>
+	        <!-- 手机号码 -->
+			<div class="main__subject_item">
+	            <span class="important">*</span>
+	            <label class="font_4">手机号码 :</label>
+	            <input type="text" id="phone" placeholder=" 请输入您的手机号码">
+	        	<p id="hint_phone">请正确填写手机号，稍后将向该手机发送短信验证码</p>
+	        </div>
+	        <!-- 旅客类型 -->
+			<div class="main__subject_item">
+	            <span class="important">*</span>
+	            <label class="font_4">旅客类型 :&nbsp;&nbsp;&nbsp;</label>
+	            <select>
+	            	<option>成人</option>
+	            	<option>儿童</option>
+	            	<option>学生</option>
+	            	<option>残疾军人</option>
+	            	<option>伤残人民警察</option>
+	            </select>
+	        </div>
+	       	<!-- 协议+提交按钮 -->
+			<div class="end">
+	            <input type="checkbox" id="rule">
+	            <label for="rule">我已阅读并同意遵守规定<a>《中国铁路客户服务中心网站服务条款》</a></label><br/>
+	            <button id="btn">下一步</button>
+	        </div>
+		</div>
+	</div>
+	
+	<!-- 底部 -->
+	<footer>
+		<p>关于我们&nbsp;|&nbsp;网站声明<br/>Copyright&nbsp;&copy;&nbsp;2017&nbsp;imooc.com&nbsp;All&nbsp;Rights&nbsp;Reserved&nbsp;|&nbsp;京IPC备&nbsp;13046642号-2</p>
+	</footer>
+		
+</body>
+</html>
+<script type="text/javascript" src="js/script.js"></script>

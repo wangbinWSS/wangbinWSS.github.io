@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	font-family: "Microsoft YaHei";
+	width: 100%;
+	height: 100%;
+}
+.wrap-main{
+	width: 100%;
+	height: 700px;
+	background:#003333;
+	overflow: hidden;
+}
+.main{
+	width: 1200px;
+	height: 700px;
+	margin: auto;
+	position: relative;
+}
+.banner{
+	width: 1200px;
+	height: 550px;
+	position: relative;
+	overflow: hidden;
+}
+/*图片*/
+.banner-slide{
+	width: 1200px;
+	height: 550px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0;
+}
+.slide1{
+	background-image: url("../img/1.jpg");
+	z-index: 999;
+	opacity: 1;
+}
+.slide2{
+	background-image: url("../img/3.jpg");
+
+}
+.slide3{
+
+	background-image: url("../img/4.jpg");
+}
+.slide4{
+	background-image: url("../img/5.jpg");
+}
+
+/*按钮*/
+
+.button{
+	position: absolute;
+	left: 0;
+	top: 550px;
+	width: 300px;
+	height: 150px;
+	text-decoration: none;
+	background-size: cover;
+	box-shadow: 5px 5px 10px black;
+}
+.btn1{
+	border-radius: 0 0 0 5px;
+	background-image: url("../img/1.jpg");
+}
+.btn2{
+	left: 300px;
+	background-image: url("../img/3.jpg");
+}
+.btn3{
+	left: 600px;
+	background-image: url("../img/4.jpg");
+}
+.btn4{
+	left: 900px;
+	border-radius: 0 0 5px 0;
+	background-image: url("../img/5.jpg");
+}
+/* 遮罩 */
+.cover{
+	position: absolute;
+	width: 300px;
+	height: 150px;
+	background: gray;
+	z-index: 999;
+	opacity: .6;
+	cursor: pointer;
+	
+}
+.cover_1{
+	z-index: -1;
+	opacity: 0;
+}
+.cover_2{
+	left: 300px;
+}
+.cover_3{
+	left: 600px;
+}
+.cover_4{
+	left: 900px;
+}

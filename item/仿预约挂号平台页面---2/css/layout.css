@@ -1,0 +1,578 @@
+/* top区左部 */
+.top .phone{
+	height:30px;
+	width: 170px;
+}
+.top .phone img{
+	width: 20px;
+	height: 20px;
+	margin-right: 4px;	
+	vertical-align:middle;
+}
+.top .phone span{
+	line-height: 30px;
+	font-size: 12px;
+	vertical-align:middle;
+	color: #868686;
+}
+/* top区右部 */
+.top .top-help{
+	width: 436px;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	color: #868686;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+.top .top-help b{
+	font-weight: normal;
+	margin-right: 15px;
+}
+.top .top-help a{
+	color: #2da5e1;
+}
+.top .top-help a:nth-of-type(1){
+	margin-left: 32px;
+	margin-right: 19px;
+}
+.top .top-help a:nth-of-type(2){
+	margin-right: 80px;
+}
+
+/* header区 */
+/* logo */
+.header .header-wrap img{
+	height: 70px;
+	width: 350px;
+	margin-top: 11.5px;
+}
+.header .header-wrap img:hover{
+	cursor: pointer;
+}
+/* 搜索 */
+.header .header-wrap .search{
+	background: url(../img/ui-search.jpg) no-repeat;
+	width: 326px;
+	height: 38px;
+	border: 1px solid #fec009;
+	border-radius: 10px;
+	position: absolute;
+	right: 0;
+	top: 28px;
+}
+
+/* nav区 */
+.nav-wrap a{
+	line-height: 36px;
+	color: #fff;
+	margin-left: 53px;
+}
+.nav-wrap a:last-of-type{
+	position: absolute;
+	right: 0;
+}
+.nav-wrap a:hover{
+	color: #d7f3ff;
+}
+
+/* 医院简介区detial */
+/* 头部 */
+.detial-top{
+	width: 1000px;
+	height: 52px;
+	border-bottom: 1px solid #dcdddd;
+}
+.detial-top b{
+	font-size: 16px;
+	line-height: 52px;
+	margin-left: 16px;
+	color: #000;
+}
+.detial-top h5{
+	display: inline;
+	font-size: 13px;
+	color: #f29600;
+	margin-left: 13px;
+}
+.detial-top .right{
+	position: absolute;
+	top: 0;
+	right: 25px;
+	height: 52px;
+	width: 305px;
+	line-height: 52px;
+}
+.detial-top .right a{
+	font-size: 12px;
+}
+.detial-top .right span{
+	font-size: 12px;
+}
+.detial-top .right span:nth-of-type(1),
+.detial-top .right span:nth-of-type(2){
+	margin-right: 11px;
+}
+/* 内容 */
+.detial-main{
+	width: 207px;
+	position: relative;
+}
+.detial-main img:first-of-type{
+	width: 200px;
+	height: 150px;
+	position: absolute;
+	left: 25px;
+	top: 12px;
+}
+.detial-main img:nth-of-type(2){
+	position: absolute;
+	left: 255px;
+	top: 22px;
+	width: 15px;
+	height: 120px;
+}
+.detial-main .cover{
+	width: 15px;
+	height: 20px;
+	background-color: #f7f7f7;
+	position: absolute;
+	top: 120px;
+	left: 255px;
+	z-index: 2;
+}
+.detial-main .text{
+	position: absolute;
+	left: 282px;
+	top: 20px;
+	font-size: 12px;
+	width: 430px;
+}
+.detial-main .text span{
+	color: #888;
+}
+.detial-main .text span:nth-of-type(2),
+.detial-main .text span:nth-of-type(3),
+.detial-main .text span:nth-of-type(4){
+	display: inline-block;
+	margin-top: 10px;
+	
+}
+.detial-main .text span:nth-of-type(4){
+	line-height: 20px;
+}
+.detial-main img:nth-of-type(3){
+	height: 166px;
+	width: 250px;
+	position: absolute;
+	left: 726px;
+	top: 12px;
+}
+/* 预约挂号 */
+/* 预约挂号系列导航 */
+.main .main-nav a{
+	display: inline-block;
+	height: 30px;
+	width: 120px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color: #60bff2;
+}
+.main .main-nav .click-style{
+	height: 30px;
+	width: 120px;
+	background-color: #60bff2;
+	color: white;
+}
+/* 预约挂号选项卡 */
+/* 左部 */
+.main-order-left-title{
+	height: 44px;
+	width: 708px;
+	background-color: #f4f6fa;
+	font-size: 14px;
+	line-height: 44px;
+}
+ .main-order-left-title p{
+	margin-left: 30px;
+}
+ .main-order-left-nav{
+	width: 146px;
+	height: 364px;
+	background-color: #f2fbff;
+	text-align: center;
+}
+ .main-order-left-nav p{
+	display: block;
+	width: 146px;
+	height: 14px;
+	font-size: 14px;
+	color: #888;
+}
+ .main-order-left-nav p:first-of-type{
+	padding-top: 11px;
+	padding-bottom: 65px;
+	border-bottom: 1px solid #f4f6fa; 
+}
+.main-order-left-nav p:nth-of-type(2),
+.main-order-left-nav p:nth-of-type(3),
+.main-order-left-nav p:nth-of-type(4)
+ {
+	padding-top: 11px;
+	padding-bottom: 65px;
+	border-bottom: 1px solid #f4f6fa; 
+}
+.main-order-left-main{
+	width: 562px;
+	height: 364px;
+	margin-left: 146px;
+	position: absolute;
+	top: 44px;
+}
+.main-order-left-main div{
+	width: 562px;
+	height: 90.5px;
+	border-bottom: 1px solid #f4f6fa;
+}
+.main-order-left-main div table{
+	padding-left: 20px;
+}
+.main-order-left-main div table tr{
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;	
+	color: #4c4948;
+}
+.main-order-left-main div table tr td{
+	width: 120px;
+	height: 14px;
+}
+.main-order-left-main div table tr td:hover{
+	cursor: pointer;
+}
+/* 右部 */
+/*  */
+.main-order-right-title{
+	width: 274px;
+	height: 42px;
+	background-color: #f4f6fa;
+}
+.main-order-right-title h4{
+	display: inline-block;
+	width: 60px;
+	height: 14px;
+	margin: 14px 5px 14px 10px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 14px;
+}
+.main-order-right-title span{
+	font-size: 12px;
+	color: #00b3ea;
+}
+.main-order-right-main{
+	width: 274px;
+	height:243px;
+	overflow:auto;
+}
+.main-order-right-main-wrap{
+	margin: 10px;
+}
+.main-order-right-main-wrap p{
+	font-size: 12px;
+	color: #555;
+	line-height: 20px;
+	display: inline-block;
+}
+.main-order-right-main-wrap p span{
+	display: inline-block;
+	font-size: 10px;
+	color: #888;
+	margin-left: 55px;
+}
+.main-order-right-main-wrap span{
+	display: inline-block;
+	font-size: 10px;
+	color: #888;
+	margin-left: 5px;
+}
+
+/* 医院介绍选项卡 */
+.main-show p{
+	text-indent: 2em;
+	font-size: 14px;
+}
+
+/* 挂号须知选项卡 */
+.main-orderShow h2{
+	font-size: 18px;
+	padding-top: 21px;
+	text-align: center;
+	padding-bottom: 48px;
+}
+.main-orderShow h3,
+.main-orderShow span
+{
+	display: block;
+	font-size: 11px;
+	padding-bottom: 20px;
+	line-height: 20px;
+}
+.main-orderShow h4{
+	font-size: 11px;
+	line-height: 20px;
+}
+
+/* 停诊信息选项卡 */
+.main-stop h4{
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.main-stop table{
+	padding: 0 5px 0 5px;
+	border-collapse:collapse;
+}
+.main-stop table tr{
+	height: 30px;
+	
+}
+.main-stop table tr td{
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #dcdddd;
+	color: #555;
+}
+.main-stop table tr td:first-of-type{
+	width: 117px;
+}
+.main-stop table tr td:nth-of-type(2),
+.main-stop table tr td:nth-of-type(3),
+.main-stop table tr td:nth-of-type(5){
+	width: 53px;
+}
+.main-stop table tr td:nth-of-type(4){
+	width: 214px;
+}
+.main-stop table tr td:nth-of-type(6){
+	width: 152px;
+}
+.main-stop table tr td:nth-of-type(7){
+	width: 77px;
+}
+.main-stop table tr td:nth-of-type(8),
+.main-stop table tr td:nth-of-type(9),
+.main-stop table tr td:nth-of-type(10){
+	width: 89px;
+}
+
+/* 查询取消选项卡 */
+.main-cancel-wrap{
+	width: 420px;
+	height: 40px;
+	margin: 80px auto;
+	position: relative;
+}
+.main-cancel-wrap span{
+	font-size: 16px;
+	line-height: 35px;
+}
+.main-cancel-wrap input{
+	width: 193px;
+	height: 28px;
+}
+.main-cancel-wrap button{
+	width: 108px;
+	height: 30px;
+	background-color: #00b3ec;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -15px;
+	border: 1px solid #00b3ec;
+	color: white;
+	font-size: 14px;
+}
+.main-cancel-wrap button:hover{
+	cursor: pointer;
+}
+
+/* 页脚 */
+.footer span{
+	display: block;
+	width: 1000px;
+	height: 70px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 70px;
+	color: #acacac;
+}
+
+/* 分页 */
+/* 科室排班 */
+.setClass b{
+	font-size: 16px;
+	padding-left: 10px;
+	font-weight: normal;
+}
+.setClass a{
+	font-size: 14px;
+	padding-left:14px;
+	padding-top: 2px;
+}
+.setClass-left{
+	width: 34px;
+	height: 320px;
+	border: 1px solid #dcdddd;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.setClass-left .clickLeft{
+	background: url('../img/icon-scheduling-left.jpg') no-repeat 0 -4px;
+	width: 34px;
+	height: 43px;
+}
+.setClass-right{
+	width: 34px;
+	height: 320px;
+	border: 1px solid #dcdddd;
+	position: absolute;
+	top: 0;
+	left: 684px;
+	overflow: hidden;
+}
+.setClass-right .clickRight{
+	background: url('../img/icon-scheduling-right.jpg') no-repeat 0 -4px;
+	width: 34px;
+	height: 43px;
+}
+.setClass-right-time{
+	height: 280px;
+}
+.setClass-left-time,
+.setClass-right-time{
+	background-color:#f2f8ff;
+	font-size: 12px;
+}
+.setClass-left-time > div{
+	height: 93px;
+	line-height: 92px; 
+	text-align: center;
+}
+.setClass-week-wrap{
+	width: 651px;
+	height: 323px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 35px;
+}
+.setClass-week{
+	height: 323px;
+	width: 4557px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: left 1s;
+}
+.setClass-week table{
+	border-collapse:collapse;
+}
+.setClass-week table tr td{
+	border: 1px solid #dcdddd;
+}
+.setClass-week-time{
+	height: 43px;
+	background-color: #f8fafc;
+	text-align: center;
+}
+.setClass-week-time td{
+	width: 93px;
+	text-align: center;
+	font-size: 12px;
+}
+.setClass-time{
+	height: 93px;
+}
+.setClass-time td{
+	width: 93px;
+}
+.noTime td{
+	font-size: 12px;
+	color: #4ab4ed;
+	background-color: #e0eefd;
+	text-align: center;
+}
+.setClass-week-time b{
+	display: inline-block;
+	margin-left: -10px;
+	font-weight: normal;
+	font-size: 12px;
+	color: #868686;
+	text-align: center;
+}
+.setClass-week-time span{
+	display: inline-block;
+	font-size: 12px;
+	color: #868686;
+	transform: scale(.8);
+	text-align: center;
+}
+.setClass-text{
+	width: 279px;
+	height:320px;
+	overflow:auto;
+	border: 1px solid #dcdddd;
+	position: absolute;
+	right: 0px;
+	top: 0;
+}
+.setClass-text-wrap{
+	margin:20px 70px 2px 10px;
+}
+.setClass-text-wrap h2{
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+.setClass-text-wrap p{
+	font-size: 12px;
+	color: #555;
+	line-height: 20px;
+}
+.setClass-text-wrap p span{
+	font-size: 10px;
+	color: #888;
+}
+.setClass-text-wrap span{
+	font-size: 10px;
+	color: #888;
+}
+.setClass-bottom{
+	width: 998.5px;
+	height: 64px;
+	position: absolute;
+	top: 321px;
+	border: 1px solid #dcdddd;
+	text-align: center;
+	line-height: 64px;
+}
+.setClass-bottom img{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 22px;
+	left: 400px;
+}
+.clickLeft:hover,
+.clickRight{
+	cursor: pointer;
+}

@@ -1,5 +1,5 @@
 (function(){
-    var itemTmpl = '<a class="$key tab-item" href="../../$key.html">'+
+    var itemTmpl = '<a class="$key tab-item" href="../../item/meituan/$key.html">'+
                       '$text'+
                    '</a>'
 
@@ -9,10 +9,10 @@
             key: 'menu',
             text: '点菜'
         },{
-            key: 'common',
+            key: '#',
             text: '评价'
         },{
-            key: 'restanurant',
+            key: '#',
             text: '商家'
         }];
 

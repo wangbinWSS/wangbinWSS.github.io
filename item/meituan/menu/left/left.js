@@ -11,7 +11,7 @@
 	* param
 	*/				
 	function getList(){
-		$.get('json/food.json',function(data){
+		$.get('/json/food.json',function(data){
 			console.log(data);
 			window.food_spu_tags = data.data.food_spu_tags || [];
 			initContentList(window.food_spu_tags);

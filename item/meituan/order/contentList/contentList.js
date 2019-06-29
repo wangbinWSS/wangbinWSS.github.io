@@ -98,7 +98,7 @@
 	function getList(){
 		page++;
 		isLoading = true;
-		$.get('../../json/orders.json',function(data){
+		$.get('../../item/meituan/json/orders.json',function(data){
 			console.log(data);
 			var list = data.data.digestlist || [];
 			initContentList(list);

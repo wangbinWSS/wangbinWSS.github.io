@@ -1,5 +1,5 @@
 (function(){
-    var itemTmpl = '<a class="$key btn-item" href="../../$key.html">'+
+    var itemTmpl = '<a class="$key btn-item" href="item/meituan/$key.html">'+
                       '<div class="tab-icon"></div>'+
                       '<div class="btn-name">$text</div>'+
                    '</a>'

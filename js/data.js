@@ -20,10 +20,6 @@ const data = [
     href : '/item/h5动态页面---1/index.html'
   },
   {
-    text : '仿拼多多动态加载页面',
-    href : '/item/仿拼多多动态加载/index.html'
-  },
-  {
     text : '仿手机美团外卖点餐界面',
     href : '/item/meituan/index.html'
   }

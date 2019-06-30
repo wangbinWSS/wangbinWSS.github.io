@@ -9,10 +9,10 @@
             key: 'menu',
             text: '点菜'
         },{
-            key: '#',
+            key: 'menu'
             text: '评价'
         },{
-            key: '#',
+            key: 'menu',
             text: '商家'
         }];
 

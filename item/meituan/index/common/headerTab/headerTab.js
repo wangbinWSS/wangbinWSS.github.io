@@ -9,7 +9,7 @@
             key: 'menu',
             text: '点菜'
         },{
-            key: 'menu'
+            key: 'menu',
             text: '评价'
         },{
             key: 'menu',

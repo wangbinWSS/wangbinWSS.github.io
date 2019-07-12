@@ -16,7 +16,7 @@ const data = [
     href : '/item/仿三星响应式布局/index.html'
   },
   {
-    text : '动态页面',
+    text : 'H5动态页面',
     href : '/item/h5动态页面---1/index.html'
   },
   {

@@ -1,6 +1,6 @@
 const data = [
   {
-    text : '英雄联盟轮播图',
+    text : '自制轮播图',
     href : '/item/轮播/index.html'
   },
   {
